@@ -1,0 +1,41 @@
+body{
+    background-image: url(/img/loutrefond.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:aquamarine;
+}
+
+.TitreUn{
+    color: #83352F;
+}
+
+.Diamant{
+    height: 150px;
+    width: auto;
+    background-color: #83352F;
+}
+
+.Top{
+    height: 50vh;
+}
+
+.ImageTest{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.Alois{
+    position: absolute;
+    z-index: 10;
+    height: 30px;
+    width: 30px;
+    margin-top: -610px;
+    margin-left: 710px;
+}
+
+.Alois img{
+    width: 100%;
+    height: 100%;
+}
